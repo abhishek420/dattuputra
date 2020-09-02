@@ -10,7 +10,7 @@ MongoClient.connect(url, function (err, db) {
         { name: "Company", address: "Highway 37" },
         { name: "Bibox", address: "Electromic city" },
         { name: "Petzz.org", address: "Iim Bangalore" },
-        { name: "Genpact", address: "Bellandur" },
+        { name: "Genpact", address: "hello" },
     ];
     dbo.collection("customers").insertMany(myobj, function (err, res) {
         if (err) throw err;
