@@ -7,7 +7,7 @@ MongoClient.connect(url, function (err, db) {
     if (err) throw err;
     var dbo = db.db("mydb");
     var myobj = [
-        { name: "Company Inc", address: "Highway 37" },
+        { name: "Company", address: "Highway 37" },
         { name: "Bibox", address: "Electromic city" },
         { name: "Petzz.org", address: "Iim Bangalore" },
         { name: "Genpact Digital", address: "Bellandur" },
